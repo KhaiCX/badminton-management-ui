@@ -22,6 +22,14 @@ main {
     margin: 0;
     text-align: center;
   }
+
+  ul {
+    padding-left: 0px;
+  }
+
+  li {
+    list-style: none;
+  }
   
   @media (min-width: 768px) {
     main {
