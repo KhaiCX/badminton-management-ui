@@ -14,4 +14,7 @@ import { DUMMY_USERS } from './dummy-user';
 export class AppComponent {
   title = 'badminton-management-ui';
   users = DUMMY_USERS;
+  onSelectUser(id: string) {
+    console.log('Selected user id: ' + id);
+  }
 }
