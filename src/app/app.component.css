@@ -29,6 +29,7 @@ main {
 
   li {
     list-style: none;
+    margin-bottom: 10px;
   }
   
   @media (min-width: 768px) {
