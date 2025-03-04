@@ -3,11 +3,12 @@ import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { UserComponent } from "./user/user.component";
 import { DUMMY_USERS } from './dummy-user';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, UserComponent],
+  imports: [NavbarComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
